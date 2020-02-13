@@ -30,3 +30,5 @@ Especificar las credenciales de acceso a la base en este mismo archivo.
 Usuario Admin:
 Contraseña Admin:
 Nombre de la BD:
+
+Desarrollar, al menos, 2 tests unitarios.
