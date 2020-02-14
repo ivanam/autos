@@ -1,7 +1,9 @@
 # README
 
 #credenciales acceso a la base de datos postgresql
+
 username db: ivana
+
 password:root
 
 #Pasos para ejecutar api POST USUARIOS:
