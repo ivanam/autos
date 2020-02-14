@@ -21,4 +21,4 @@ password:root
 -rails s
 
 
-![Alt-Text](https://gitlab.com/ibis-dev/interview-ivana/-/blob/backend-frontend/usuarios/captura.png)
+<img src="https://gitlab.com/ibis-dev/interview-ivana/-/blob/backend-frontend/usuarios/captura.png" width="200" height="400" />
