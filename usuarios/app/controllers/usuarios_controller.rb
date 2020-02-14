@@ -23,17 +23,16 @@ class UsuariosController < ApplicationController
       usuario.email = email
       usuario.createdAt = Date.today
       if usuario.save
-        @usuario = OpenStruct.new
-        @usuario.name  = usuario.name
-        @usuario.phone = usuario.phone
-        @usuario.email = usuario.email
-        @usuario.id = usuario.id
-        @usuario.createdAt = usuario.createdAt
-        @usuario.save
-
-        render json: {status: 'SUCCESS', message: 'Usuario creado con éxito!', data: @usuario}, status: :ok
+        @usuario_estruct = OpenStruct.new
+        @usuario_estruct.name  = usuario.name
+        @usuario_estruct.phone = usuario.phone
+        @usuario_estruct.email = usuario.email
+        @usuario_estruct.id = usuario.id
+        @usuario_estruct.createdAt = usuario.createdAt
+        @usuario_estruct.save
+        render json: {status: 'SUCCESS', message: 'Usuario creado con éxito!', data: @usuario_estruct}, status: :ok
       else
-      render json: {status: 'ERROR', message: 'Error al guardar el usuario', data: @usuario.errors}, status: :unprocessable_entity
+      render json: {status: 'ERROR', message: 'Error al guardar el usuario'}, status: :unprocessable_entity
       end
     else
       render json: {status: 'ERROR', message: 'Ya existe un usuario con este email'}, status: :unprocessable_entity

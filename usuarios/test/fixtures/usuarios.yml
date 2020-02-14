@@ -1,13 +1,20 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
-  phone: MyString
-  email: MyString
+  name: ivana
+  phone: 02804382214
+  email: iva.moyano@gmail.com
   createdAt: 2020-02-14
 
 two:
-  name: MyString
-  phone: MyString
-  email: MyString
+  name: maria
+  phone: 12345678
+  email: iva.moyano2@gmail.com
   createdAt: 2020-02-14
+
+two:
+  name: maria
+  phone: 12345678
+  email: iva.moyano@gmail.com
+  createdAt: 2020-02-14
+

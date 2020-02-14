@@ -5,6 +5,12 @@ class UsuariosControllerTest < ActionDispatch::IntegrationTest
     @usuario = usuarios(:one)
   end
 
+  test "no deberia crear usuario son nombre" do
+    usuario = Usuario.new
+    assert_not usuario.save
+  end
+
+
   test "should get index" do
     get usuarios_url, as: :json
     assert_response :success
