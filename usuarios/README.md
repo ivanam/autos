@@ -20,7 +20,7 @@ password:root
 
 -rails s
 
-
+----------------------------------------------------------------------------------------------------------------
 
 #Para pruebas se utilizó Postamn, para ver captura de pantalla: 
 https://gitlab.com/ibis-dev/interview-ivana/-/blob/backend-frontend/usuarios/captura.png
@@ -79,3 +79,10 @@ https://gitlab.com/ibis-dev/interview-ivana/-/blob/backend-frontend/usuarios/cap
 }
 
 #(captura de pantalla en https://gitlab.com/ibis-dev/interview-ivana/-/blob/backend-frontend/usuarios/capura2.png)
+
+
+
+--------------------------------------------------------------------------------------------------------
+
+Los test unitarios se encuentran en /test/controllers/usuarios_controller_test y /test/models/usuarios_test
+los datos precargados para los tests estan en /test/fixtures/usuarios.yml
