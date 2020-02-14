@@ -19,3 +19,6 @@ password:root
 -rake db:migrate
 
 -rails s
+
+
+![alt text](https://gitlab.com/ibis-dev/interview-ivana/-/blob/backend-frontend/usuarios/captura.png)
